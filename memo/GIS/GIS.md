@@ -27,7 +27,7 @@
 |.shx|図形のインデックス情報を格納するファイル|
 |.dbf|図形の属性情報を格納するテーブル（dBASE IV形式ファイル）|
 
-参考: [シェープファイルとは？ | GIS基礎解説 | ESRIジャパン](https://www.esrij.com/gis-guide/esri-dataformat/shapefile/)
+参考: [シェープファイルとは？ - GIS基礎解説 - ESRIジャパン](https://www.esrij.com/gis-guide/esri-dataformat/shapefile/)
 
 ## シェープファイルの文字コード変換
 入手したシェープファイルで使用されている文字コードはShift JISのため、これをUTF-8に変換します。
@@ -123,7 +123,7 @@ WHERE SDO_CONTAINS(GEOMETRY, SDO_GEOMETRY(2001, 4326, SDO_POINT_TYPE(141.353611,
 
 ## 参考リンク
 - [世界測地系移行の概要 - 国土交通省 国土地理院](http://www.gsi.go.jp/LAW/G2000-g2000.htm)
-- [空間データで遊ぶ - オラクルエンジニア通信 | SlideShare](https://www.slideshare.net/oracle4engineer/database-spatial-features)
+- [空間データで遊ぶ - オラクルエンジニア通信 - SlideShare](https://www.slideshare.net/oracle4engineer/database-spatial-features)
 - [シェープファイルの拡張子 - ArcGIS ヘルプ 10.1 ](http://resources.arcgis.com/ja/help/main/10.1/index.html#//005600000003000000)
 - [シェープファイルの技術情報 (PDF) - ESRIジャパン株式会社](https://www.esrij.com/cgi-bin/wp/wp-content/uploads/documents/shapefile_j.pdf)
 - [空間参照系の概要 - Qiita](https://qiita.com/yellow_73/items/b98d3d1ef3abf7299aba)
