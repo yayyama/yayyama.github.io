@@ -1,7 +1,7 @@
 # GIS（地理情報システム）入門
 ## 地形図データ（シェープファイル）の入手
 
-- [GISホームページ | 国土交通省独土政策局国土情報課 | 国土数値情報 ダウンロードサービス](http://nlftp.mlit.go.jp/ksj/index.html)
+- [GISホームページ - 国土交通省独土政策局国土情報課 - 国土数値情報 ダウンロードサービス](http://nlftp.mlit.go.jp/ksj/index.html)
  - [国土数値情報 行政区域データ](http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-v2_3.html)
 
 ここでは以下のデータをダウンロードします。
@@ -20,6 +20,7 @@
 実体は単一のファイルではなく、少なくとも以下の3つのファイルが必要です。
 
 #### 主な構成ファイル
+
 |拡張子|概要|
 |:---|:---|
 |.shp|図形の情報を格納するメインファイル|
@@ -121,10 +122,10 @@ WHERE SDO_CONTAINS(GEOMETRY, SDO_GEOMETRY(2001, 4326, SDO_POINT_TYPE(141.353611,
 |北海道|石狩振興局|札幌市|中央区|01101|[MDSYS.SDO_GEOMETRY]|
 
 ## 参考リンク
-- [世界測地系移行の概要 | 国土交通省 国土地理院](http://www.gsi.go.jp/LAW/G2000-g2000.htm)
-- [空間データで遊ぶ | オラクルエンジニア通信 | SlideShare](https://www.slideshare.net/oracle4engineer/database-spatial-features)
-- [シェープファイルの拡張子 | ArcGIS ヘルプ 10.1 ](http://resources.arcgis.com/ja/help/main/10.1/index.html#//005600000003000000)
-- [シェープファイルの技術情報 (PDF) | ESRIジャパン株式会社](https://www.esrij.com/cgi-bin/wp/wp-content/uploads/documents/shapefile_j.pdf)
+- [世界測地系移行の概要 - 国土交通省 国土地理院](http://www.gsi.go.jp/LAW/G2000-g2000.htm)
+- [空間データで遊ぶ - オラクルエンジニア通信 | SlideShare](https://www.slideshare.net/oracle4engineer/database-spatial-features)
+- [シェープファイルの拡張子 - ArcGIS ヘルプ 10.1 ](http://resources.arcgis.com/ja/help/main/10.1/index.html#//005600000003000000)
+- [シェープファイルの技術情報 (PDF) - ESRIジャパン株式会社](https://www.esrij.com/cgi-bin/wp/wp-content/uploads/documents/shapefile_j.pdf)
 - [空間参照系の概要 - Qiita](https://qiita.com/yellow_73/items/b98d3d1ef3abf7299aba)
-- [「測地成果2000」と「測地成果2011」 | 国土交通省 国土地理院](http://www.gsi.go.jp/sokuchikijun/jgd2000-2011.html)
-- [日本測地系2011 (JDG2011) とは | 空間情報クラブ](http://club.informatix.co.jp/?p=998)
+- [「測地成果2000」と「測地成果2011」 - 国土交通省 国土地理院](http://www.gsi.go.jp/sokuchikijun/jgd2000-2011.html)
+- [日本測地系2011 (JDG2011) とは - 空間情報クラブ](http://club.informatix.co.jp/?p=998)
